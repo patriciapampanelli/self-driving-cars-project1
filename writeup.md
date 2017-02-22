@@ -45,9 +45,9 @@ The pipeline I designed for finding lane lines has the following steps:
 - Find edges using canny edge detection method with these parameters: low_threshold = 25 and high_threshold = 75:
 ![alt text][image3]
 - Find the region of interest:
-![alt text][image4]
-- Get the lines using Hough Transform using these parameters: max_line_gap = 2, min_line_len = 3, rho = 1, theta = np.pi/180, threshold = 50:
 ![alt text][image5]
+- Get the lines using Hough Transform using these parameters: max_line_gap = 2, min_line_len = 3, rho = 1, theta = np.pi/180, threshold = 50:
+![alt text][image4]
 - Finally, combine the output lines with the original image:
 ![alt text][image6]
 
